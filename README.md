@@ -10,7 +10,7 @@ Inspired by [Wudao-dict](https://github.com/ChestnutHeng/Wudao-dict)
 
 本来[无道词典](https://github.com/ChestnutHeng/Wudao-dict) 格式挺好看的，可惜无道词典是用终端上色的方法，在Golden dict里面看起来就像乱码一样。所以自己写了个脚本，将有道词典返回的json格式化成html，方便在Golden dict里面看
 
-目前在`英译汉`和`汉译英`过程中没有发现什么问题，可以`翻译句子`，但是如果你打错单词的话就什么也不会输出，主要是为了配合划词翻译句子准备的
+目前在`英译汉`和`汉译英`过程中没有发现什么问题，句子没法翻译，最长两个词，但是如果你打错单词的话就什么也不会输出，主要是为了配合划词翻译句子准备的
 
 注意，本程序输出格式为html,请尽量避免在终端中直接阅读
 
