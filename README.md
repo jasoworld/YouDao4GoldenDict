@@ -25,8 +25,8 @@ Inspired by [Wudao-dict](https://github.com/ChestnutHeng/Wudao-dict)
 [img](https://github.com/cathaysia/YouDao4GoldenDict/blob/master/Screenshot_20200503_223808.png)
 
 效果如下：
-[img](https://github.com/cathaysia/YouDao4GoldenDict/blob/master/en2ch.png)
-[img](https://github.com/cathaysia/YouDao4GoldenDict/blob/master/zh2en.png)
+[!img](https://github.com/cathaysia/YouDao4GoldenDict/blob/master/en2ch.png)
+[!img](https://github.com/cathaysia/YouDao4GoldenDict/blob/master/zh2en.png)
 
 ## 注意
 - 本程序只是为了配合golden dict用，不会考虑输出为其他格式，需要终端翻译的可以考虑[Wudao-dict](https://github.com/ChestnutHeng/Wudao-dict)
