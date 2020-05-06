@@ -20,8 +20,6 @@ Inspired by [Wudao-dict](https://github.com/ChestnutHeng/Wudao-dict)
 2. 在[有道智云](http://ai.youdao.com/)注册一个帐号，然后个人账户那里的 ``自然语言翻译->翻译实例``创建一个实例，然后在 ``应用管理->我的应用``哪里创建一个应用。
 3. 将创建应用的 ``应用ID`` 填到脚本中的 ``APP_KEY``，``应用密钥``填到 ``APP_SECRET``
 4. 打开 `Golden Dict -> 编辑 -> 词典 -> 程序 -> 添加`，然后在新添加的命令行中写上：`YouDao4GD.py %GDWORD%`，并把前面的启用打勾就行了
-尽量不要把这个插件放在第一个词典，这样会由于网络查询造成很明显的时延
-注意：
 
 如图：
 ![img](https://github.com/cathaysia/YouDao4GoldenDict/blob/master/Screenshot_20200503_223808.png)
@@ -32,3 +30,4 @@ Inspired by [Wudao-dict](https://github.com/ChestnutHeng/Wudao-dict)
 
 ## 注意
 - 本程序只是为了配合golden dict用，不会考虑输出为其他格式，需要终端翻译的可以考虑[Wudao-dict](https://github.com/ChestnutHeng/Wudao-dict)
+- 尽量不要把这个插件放在第一个词典，这样会由于网络查询造成很明显的时延
