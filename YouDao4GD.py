@@ -104,6 +104,18 @@ def format(content: bytes) -> str:
     except Exception:
         explains = ''
         pass
+    # 句子翻译时的释义
+    if explains == '':
+        try:
+            explains = '''
+                    <p style="font-weight: bold">释义</p>
+                    <ol>
+                    '''
+            for expla in jsonData['translation']:
+                explains += '''<li style="color: blue">%s</li>''' % expla
+            explains += '</ol>'
+        except Exception:
+            pass
     # 网络释义 这个有可能有，也有可能没有
     web_explains = ''
     try:
