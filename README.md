@@ -8,11 +8,9 @@ Inspired by [Wudao-dict](https://github.com/ChestnutHeng/Wudao-dict)
 
 ## 预览
 
-![img](assets/Screenshot_20200503_223808.png)
-
-效果如下：
-![img](assets/en2ch.png)
-![img](assets/zh2en.png)
+![img](asstes/en2ch.png)
+![img](asstes/zh2en.png)
+![img](asstes/Screenshot_20200512_180712.png)
 
 ## 特点：
 
@@ -36,6 +34,8 @@ Inspired by [Wudao-dict](https://github.com/ChestnutHeng/Wudao-dict)
 3. 将创建应用的 ``应用ID`` 填到脚本中的 ``APP_KEY``，``应用密钥``填到 ``APP_SECRET``
 4. 打开 `Golden Dict -> 编辑 -> 词典 -> 程序 -> 添加`，然后在新添加的命令行中写上：`YouDao4GD.py %GDWORD%`，并把前面的启用打勾就行了
 
+如图：
 
+![img](asstes/Screenshot_20200503_223808.png)
 
 
