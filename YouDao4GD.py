@@ -3,8 +3,8 @@ import sys
 import time, uuid, hashlib, requests, json
 
 YOUDAO_URL = 'https://openapi.youdao.com/api'
-APP_KEY = 这个地方是sr类型
-APP_SECRET = 这个地方是str类型
+APP_KEY = 这里填 APP_ID
+APP_SECRET = 这里填应用密钥
 
 def connect(word: str):
     q = word
