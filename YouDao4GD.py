@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 import sys
 import time, uuid, hashlib, requests, json
+import io
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
 
 YOUDAO_URL = 'https://openapi.youdao.com/api'
 APP_KEY = 这里填 APP_ID
